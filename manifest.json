@@ -1,0 +1,22 @@
+{
+    "name": "ResourceBlocker",
+    "version": "0.1",
+    "manifest_version": 2,
+    "description": "Blocks resources",
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "permissions": [
+        "http://*/*",
+        "https://*/*",
+        "<all_urls>",
+        "ws://*/*",
+        "wss://*/*",
+        "webRequest",
+        "webRequestBlocking",
+        "storage",
+        "privacy"
+    ]
+}
